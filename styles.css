@@ -1,0 +1,24 @@
+* {
+  background-color: black;
+  color: white;
+}
+
+.ice {
+  color: #5555ff;
+}
+
+.fire {
+  color: #ff5555;
+}
+
+.nature {
+  color: #abffab;
+}
+
+.holy {
+  color: #aaaa00;
+}
+
+.dark {
+  color: #d555d5;
+}

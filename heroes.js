@@ -447,27 +447,11 @@ function format(hero) {
   let rarity = "";
   let italic = hero.costume ? "italic" : "normal";
 
-  if (hero.element == "Fire") {
-    color = "red";
-  }
-  if (hero.element == "Ice") {
-    color = "blue";
-  }
-  if (hero.element == "Nature") {
-    color = "green";
-  }
-  if (hero.element == "Holy") {
-    color = "yellow";
-  }
-  if (hero.element == "Dark") {
-    color = "purple";
-  }
-
   for (let i = 0; i < hero.rarity; i++) {
     rarity += "★";
   }
 
-  return `<span style="color: ${color}; font-style: ${italic}">${hero.name} (${rarity})</span>`;
+  return `<span class=${hero.element.toLowerCase()} style="font-style: ${italic}">${hero.name} (${rarity})</span>`;
 }
 
 function titleCase(str) {
