@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="heroes.js"></script>
+  </head>
+  <body>
+    <h1>Heroes</h1>
+    <form action="">
+      <fieldset>
+        <legend>Rarity</legend>
+        <label>
+          <input type="checkbox" name="common" id="common" />
+          Common
+        </label>
+        <label>
+          <input type="checkbox" name="uncommon" id="uncommon" />
+          Uncommon
+        </label>
+        <label>
+          <input type="checkbox" name="rare" id="rare" />
+          Rare
+        </label>
+        <label>
+          <input type="checkbox" name="epic" id="epic" />
+          Epic
+        </label>
+        <label>
+          <input type="checkbox" name="legendary" id="legendary" />
+          Legendary
+        </label>
+        <label>
+          <input type="checkbox" name="anyRarity" id="anyRarity" />
+          Any
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Class</legend>
+        <label>
+          <input type="checkbox" name="barbarian" id="barbarian" />
+          Barbarian
+        </label>
+        <label>
+          <input type="checkbox" name="cleric" id="cleric" />
+          Cleric
+        </label>
+        <label>
+          <input type="checkbox" name="druid" id="druid" />
+          Druid
+        </label>
+        <label>
+          <input type="checkbox" name="fighter" id="fighter" />
+          Fighter
+        </label>
+        <label>
+          <input type="checkbox" name="monk" id="monk" />
+          Monk
+        </label>
+        <label>
+          <input type="checkbox" name="paladin" id="paladin" />
+          Paladin
+        </label>
+        <label>
+          <input type="checkbox" name="ranger" id="ranger" />
+          Ranger
+        </label>
+        <label>
+          <input type="checkbox" name="rogue" id="rogue" />
+          Rogue
+        </label>
+        <label>
+          <input type="checkbox" name="sorcerer" id="sorcerer" />
+          Sorcerer
+        </label>
+        <label>
+          <input type="checkbox" name="wizard" id="wizard" />
+          Wizard
+        </label>
+        <label>
+          <input type="checkbox" name="anyClass" id="anyClass" />
+          Any
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Element</legend>
+        <label>
+          <input type="checkbox" name="fire" id="fire" />
+          Fire
+        </label>
+        <label>
+          <input type="checkbox" name="nature" id="nature" />
+          Nature
+        </label>
+        <label>
+          <input type="checkbox" name="ice" id="ice" />
+          Ice
+        </label>
+        <label>
+          <input type="checkbox" name="holy" id="holy" />
+          Holy
+        </label>
+        <label>
+          <input type="checkbox" name="dark" id="dark" />
+          Dark
+        </label>
+        <label>
+          <input type="checkbox" name="anyElement" id="anyElement" />
+          Any
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Mana Speed</legend>
+        <label>
+          <input type="checkbox" name="verySlow" id="verySlow" />
+          Very Slow
+        </label>
+        <label>
+          <input type="checkbox" name="slow" id="slow" />
+          Slow
+        </label>
+        <label>
+          <input type="checkbox" name="average" id="average" />
+          Average
+        </label>
+        <label>
+          <input type="checkbox" name="fast" id="fast" />
+          Fast
+        </label>
+        <label>
+          <input type="checkbox" name="veryFast" id="veryFast" />
+          Very Fast
+        </label>
+        <label>
+          <input type="checkbox" name="other" id="other" />
+          Other
+        </label>
+        <label>
+          <input type="checkbox" name="anySpeed" id="anySpeed" />
+          Any
+        </label>
+      </fieldset>
+      <fieldset id="families">
+        <legend>Family</legend>
+        <label>
+          <input type="checkbox" name="anyFamily" id="anyFamily" />
+          Any
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Display mode</legend>
+        <label>
+          <input type="radio" name="mode" id="modeAny" value="any" checked />
+          Match any selected filters
+        </label>
+        <label>
+          <input type="radio" name="mode" id="modeAll" value="all" />
+          Match all selected filters
+        </label>
+      </fieldset>
+    </form>
+    <ul id="heroes-list"></ul>
+  </body>
+</html>
