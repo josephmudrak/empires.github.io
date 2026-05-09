@@ -490,14 +490,13 @@ function titleCase(str) {
     .join(" ");
 }
 
-function getSelectedFilterValues(keys, map, anyId) {
-  const any = document.getElementById(anyId)?.checked;
+function getSelectedFilterValues(keys, map) {
   const selected = keys
     .filter((key) => document.getElementById(key)?.checked)
     .map((key) => map[key])
     .flat();
 
-  return any || selected.length === 0 ? null : selected;
+  return selected.length === 0 ? null : selected;
 }
 
 function getFamilySelection() {
@@ -505,9 +504,7 @@ function getFamilySelection() {
     document.querySelectorAll('input[name="family"]:checked'),
   ).map((input) => input.value);
 
-  return document.getElementById("anyFamily")?.checked || selected.length === 0
-    ? null
-    : selected;
+  return selected.length === 0 ? null : selected;
 }
 
 function getDisplayMode() {
@@ -556,7 +553,6 @@ function renderHeroes() {
   const rarities = getSelectedFilterValues(
     ["common", "uncommon", "rare", "epic", "legendary"],
     rarityMap,
-    "anyRarity",
   );
 
   const classes = getSelectedFilterValues(
@@ -573,19 +569,16 @@ function renderHeroes() {
       "wizard",
     ],
     classMap,
-    "anyClass",
   );
 
   const elements = getSelectedFilterValues(
     ["fire", "nature", "ice", "holy", "dark"],
     elementMap,
-    "anyElement",
   );
 
   const speeds = getSelectedFilterValues(
     ["verySlow", "slow", "average", "fast", "veryFast", "other"],
     speedMap,
-    "anySpeed",
   );
 
   const families = getFamilySelection();
