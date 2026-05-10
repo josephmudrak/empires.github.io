@@ -464,6 +464,7 @@ const heroes = [
   ),
   new Hero("Sharan", "Classic", "Ranger", 1, "Fire", 3, false),
   new Hero("Sigrunn", "Classic", "Fighter", 1, "Ice", 4, false),
+  new Hero("Silthus", "Classic", "Barbarian", 2, "Dark", 3, false),
   new Hero("Sir Casmir", "Legends 2024", "Paladin", 5, "Dark", 2, false),
   new Hero("Skittleskull", "Classic", "Sorcerer", 4, "Nature", 2, false),
   new Hero("Skrekok", "Villain", "Rogue", 3, "Fire", 3, false),
