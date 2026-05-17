@@ -46,6 +46,7 @@ class Hero {
 
 const heroes = [
   new Hero("Aether Mimic", "Mimic", "Sorcerer", 5, "Ice", 2, false),
+  new Hero("Agnes", "Asgard", "Rogue", 3, "Holy", 4, false),
   new Hero("Ahhotep", "Moon", "Rogue", 4, "Dark", 3, false),
   new Hero("Ahhotep (Mummy Champion)", "Moon", "Fighter", 4, "Dark", 3, true),
   new Hero("Aife", "Classic", "Fighter", 1, "Nature", 4, false),
@@ -507,6 +508,7 @@ const heroes = [
   new Hero("Waqas (Pharaoh's Blade)", "Sun", "Barbarian", 3, "Fire", 2, true),
   new Hero("Wu Kong", "Classic", "Monk", 4, "Holy", 3, false),
   new Hero("Xiaoqing", "Lunar Year", "Cleric", 5, "Nature", 3, false),
+  new Hero("Yao", "Kingdom", "Ranger", 3, "Ice", 3, false),
   new Hero("Zarel", "Bard", "Paladin", 3, "Nature", 2, false),
   new Hero("Zarola", "Cupid", "Ranger", 3, "Nature", 4, false),
   new Hero(
