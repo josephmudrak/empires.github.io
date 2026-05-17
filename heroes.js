@@ -155,6 +155,7 @@ const heroes = [
   new Hero("Eron", "Owl", "Sorcerer", 5, "Fire", 4, false),
   new Hero("Fafnir", "Myrkheim", "Fighter", 5, "Nature", 4, false),
   new Hero("Farid", "Classic", "Barbarian", 2, "Fire", 3, false),
+  new Hero("Fianna", "Plains Hunter", "Ranger", 3, "Nature", 3, false),
   new Hero("Fjalar", "Nidavellir", "Fighter", 4, "Holy", 3, false),
   new Hero("Fletcher", "Classic", "Rogue", 1, "Dark", 4, false),
   new Hero("Friar Tuck", "Classic", "Monk", 3, "Nature", 3, false),
