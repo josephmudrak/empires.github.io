@@ -113,6 +113,7 @@ const heroes = [
   new Hero("Bjorn", "Midgard", "Monk", 3, "Dark", 3, false),
   new Hero("Bjorn (Brave Toon)", "Midgard", "Monk", 3, "Dark", 3, true),
   new Hero("Bjorn (Brave Soldier)", "Midgard", "Rogue", 3, "Dark", 3, true),
+  new Hero("Boldtusk", "Classic", "Fighter", 4, "Fire", 3, false),
   new Hero("Boots", "Goblin", "Barbarian", 3, "Fire", 3, false),
   new Hero("Boril", "Classic", "Cleric", 4, "Ice", 3, false),
   new Hero("Boril (Glass Defender)", "Classic", "Cleric", 4, "Ice", 3, true),
