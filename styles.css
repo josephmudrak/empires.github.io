@@ -22,3 +22,8 @@
 .dark {
   color: #e565e5;
 }
+
+#families {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+}
