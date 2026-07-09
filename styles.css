@@ -1,6 +1,18 @@
 * {
   background-color: black;
   color: white;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
 }
 
 .ice {
@@ -26,4 +38,42 @@
 #families {
   display: grid;
   grid-template-columns: repeat(auto-fill, 200px);
+}
+
+#heroes-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, min(420px, calc(100% - 16px)));
+}
+
+@media screen and (max-width: 320px) {
+  #elements {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 80px);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #rarities {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 120px);
+  }
+
+  #modes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #speeds {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 110px);
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #classes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 110px);
+  }
 }
