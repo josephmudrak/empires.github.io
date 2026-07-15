@@ -46,6 +46,7 @@ class Hero {
 
 const heroes = [
   new Hero("Aether Mimic", "Mimic", "Sorcerer", 5, "Ice", 2, false),
+  new Hero("Agharoth", "Astral Demons", "Paladin", 3, "Ice", 1, false),
   new Hero("Agnes", "Asgard", "Rogue", 3, "Holy", 4, false),
   new Hero("Agwe", "Lagoon", "Cleric", 4, "Ice", 3, false),
   new Hero(
