@@ -396,6 +396,7 @@ const heroes = [
   ),
   new Hero("Layla", "Classic", "Rogue", 2, "Dark", 4, false),
   new Hero("Li Xiu", "Classic", "Monk", 4, "Holy", 3, false),
+  new Hero("Ma'at", "Sun", "Rogue", 5, "Nature", 4, false),
   new Hero("Mael", "Astral Demons", "Rogue", 4, "Fire", 4, false),
   new Hero("Magni", "Classic", "Fighter", 5, "Ice", 4, false),
   new Hero("Melia", "Atlantis", "Druid", 3, "Holy", 4, false),
