@@ -502,6 +502,7 @@ const heroes = [
     true,
   ),
   new Hero("Olaf", "Classic", "Paladin", 2, "Ice", 3, false),
+  new Hero("Para", "Kalevala", "Rogue", 3, "Dark", 3, false),
   new Hero("Pineon", "Valiant Vegetable", "Wizard", 4, "Holy", 3, false),
   new Hero("Prisca", "Classic", "Paladin", 3, "Dark", 3, false),
   new Hero("Proteus", "Atlantis", "Wizard", 4, "Dark", 3, false),
