@@ -216,6 +216,7 @@ const heroes = [
   new Hero("Gan Ju", "Classic", "Monk", 3, "Holy", 4, false),
   new Hero("General Yin", "Journey", "Barbarian", 3, "Nature", 2, false),
   new Hero("Gill-Ra", "Lagoon", "Sorcerer", 3, "Dark", 2, false),
+  new Hero("Gill-Ra (Toon Hunter)", "Lagoon", "Sorcerer", 3, "Dark", 2, true),
   new Hero("Gill-Ra (Shallows Pursuer)", "Lagoon", "Rogue", 3, "Dark", 2, true),
   new Hero("Goopy", "Morlovia", "Barbarian", 3, "Nature", 3, false),
   new Hero("Gormek", "Classic", "Barbarian", 4, "Fire", 3, false),
