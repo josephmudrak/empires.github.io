@@ -413,6 +413,15 @@ const heroes = [
   ),
   new Hero("Mnesseus", "Atlantis", "Cleric", 3, "Nature", 4, false),
   new Hero(
+    "Mnesseus (Toon Merman)",
+    "Atlantis",
+    "Cleric",
+    3,
+    "Nature",
+    4,
+    true,
+  ),
+  new Hero(
     "Mnesseus (Lieutenant of Atlantis)",
     "Atlantis",
     "Paladin",
