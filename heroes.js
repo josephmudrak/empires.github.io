@@ -400,6 +400,7 @@ const heroes = [
   new Hero("Ma'at", "Sun", "Rogue", 5, "Nature", 4, false),
   new Hero("Mael", "Astral Demons", "Rogue", 4, "Fire", 4, false),
   new Hero("Magni", "Classic", "Fighter", 5, "Ice", 4, false),
+  new Hero("Melendor", "Classic", "Druid", 4, "Nature", 3, false),
   new Hero("Melia", "Atlantis", "Druid", 3, "Holy", 4, false),
   new Hero(
     "Melia (Emissary of Atlantis)",
