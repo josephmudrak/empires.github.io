@@ -201,6 +201,7 @@ export const heroes = [
   createHero("Buddy", "Winter", "Ranger", 4, "Nature", 3, false),
   createHero("Buster", "Winter", "Barbarian", 3, "Fire", 2, false),
   createHero("Caedmon", "Classic", "Druid", 4, "Nature", 4, false),
+  createHero("Caleb", "Valiant Vegetable", "Fighter", 3, "Ice", 3, false),
   createHero("Carver", "Classic", "Rogue", 3, "Nature", 3, false),
   createHero("Chao", "Classic", "Ranger", 4, "Holy", 4, false),
   createHero("Chao (Glass Tactician)", "Classic", "Ranger", 4, "Holy", 4, true),
