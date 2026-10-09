@@ -911,7 +911,7 @@ export const heroes = [
     true,
   ),
   createHero("Xiaoqing", "Lunar Year", "Cleric", 5, "Nature", 3, false),
-  createHero("Xiang Shanjun", "Journey", "Paladin", 5, "Dark", 3, false),
+  createHero("Xiong Shanjun", "Journey", "Paladin", 5, "Dark", 3, false),
   createHero("Yao", "Kingdom", "Ranger", 3, "Ice", 3, false),
   createHero("Zarel", "Bard", "Paladin", 3, "Nature", 2, false),
   createHero("Zarola", "Cupid", "Ranger", 3, "Nature", 4, false),
