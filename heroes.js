@@ -29,15 +29,14 @@ speed: Speed.
     The mana speed alternates between Fast and Average every time the Hero casts
     the Special Skill.
   9: Magic.
-costume: Whether the hero has a costume or not (true/false).
+costumed: Whether the hero has a costume or not (true/false).
 */
 
 import { heroes } from "./heroList.js";
 
 function format(hero) {
-  let color;
   let rarity = "";
-  let italic = hero.costume ? "italic" : "normal";
+  let italic = hero.costumed ? "italic" : "normal";
 
   for (let i = 0; i < hero.rarity; i++) {
     rarity += "★";
@@ -145,6 +144,8 @@ function renderHeroes() {
     speedMap,
   );
 
+  const costumes = getSelectedFilterValues(["costumed"], { costumed: [true] });
+
   const families = getFamilySelection();
   const displayMode = getDisplayMode();
 
@@ -153,6 +154,7 @@ function renderHeroes() {
     classes !== null ||
     elements !== null ||
     speeds !== null ||
+    costumes !== null ||
     families !== null;
 
   const results = heroes
@@ -162,6 +164,7 @@ function renderHeroes() {
         classType: classes !== null && classes.includes(hero.classType),
         element: elements !== null && elements.includes(hero.element),
         speed: speeds !== null && speeds.includes(hero.speed),
+        costumed: costumes !== null && costumes.includes(hero.costumed),
         family: families !== null && families.includes(hero.family),
       };
 
@@ -171,6 +174,7 @@ function renderHeroes() {
         (!classes || matches.classType) &&
         (!elements || matches.element) &&
         (!speeds || matches.speed) &&
+        (!costumes || matches.costumed) &&
         (!families || matches.family);
 
       return { hero, matchCount, matchesAll };

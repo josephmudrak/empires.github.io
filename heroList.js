@@ -5,7 +5,7 @@ const createHero = (
   rarity,
   element,
   speed,
-  costume = false,
+  costumed = false,
 ) => ({
   name,
   family,
@@ -13,7 +13,7 @@ const createHero = (
   rarity,
   element,
   speed,
-  costume,
+  costumed,
 });
 
 export const heroes = [
