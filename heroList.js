@@ -246,6 +246,7 @@ export const heroes = [
   ),
   createHero("Derric", "Classic", "Fighter", 1, "Nature", 3, false),
   createHero("Dvalin", "Legends 2026", "Fighter", 5, "Ice", 3, false),
+  createHero("Edelaide", "Plains Hunter", "Paladin", 3, "Holy", 4, false),
   createHero("Ei-Dunn", "Niflheim", "Paladin", 3, "Fire", 3, false),
   createHero(
     "Ei-Dunn (Cursed Viking Toon)",
