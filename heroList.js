@@ -54,6 +54,7 @@ export const heroes = [
     3,
     true,
   ),
+  createHero("Arman", "Sand Empire", "Fighter", 3, "Holy", 2, false),
   createHero(
     "Atlanteia",
     "Nightmares of Atlantis",
@@ -72,7 +73,6 @@ export const heroes = [
     8,
     true,
   ),
-  createHero("Arman", "Sand Empire", "Fighter", 3, "Holy", 2, false),
   createHero("Azar", "Classic", "Barbarian", 3, "Fire", 4, false),
   createHero(
     "Azar (Seeker of Style)",
@@ -103,6 +103,15 @@ export const heroes = [
   ),
   createHero("Azar (Seeker of Gods)", "Classic", "Ranger", 3, "Fire", 4, true),
   createHero("Azlar", "Classic", "Barbarian", 5, "Fire", 2, false),
+  createHero(
+    "Azlar (King of the Leors)",
+    "Classic",
+    "Paladin",
+    5,
+    "Fire",
+    2,
+    true,
+  ),
   createHero("Bagreg", "Nightmares of Atlantis", "Ranger", 3, "Fire", 8, false),
   createHero(
     "Bagreg (Fishboy Scout)",
