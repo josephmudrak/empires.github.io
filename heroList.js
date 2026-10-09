@@ -575,9 +575,9 @@ export const heroes = [
     true,
   ),
   createHero("Layla", "Classic", "Rogue", 2, "Dark", 4, false),
-  createHero("Lemminkäinen", "Kalevala", "Barbarian", 4, "Fire", 3, false),
+  createHero("Lemmink\u00e4inen", "Kalevala", "Barbarian", 4, "Fire", 3, false),
   createHero(
-    "Lemminkäinen (Fading Champion)",
+    "Lemmink\u00e4inen (Fading Champion)",
     "Kalevala",
     "Fighter",
     4,
@@ -731,7 +731,7 @@ export const heroes = [
   createHero("Olaf", "Classic", "Paladin", 2, "Ice", 3, false),
   createHero("Para", "Kalevala", "Rogue", 3, "Dark", 3, false),
   createHero(
-    "Para (CHantry Familiar)",
+    "Para (Chantry Familiar)",
     "Kalevala",
     "Sorcerer",
     3,
@@ -825,6 +825,7 @@ export const heroes = [
     3,
     true,
   ),
+  createHero("Theron", "Legends 2026", "Druid", 5, "Nature", 3, false),
   createHero("Thorne", "Classic", "Paladin", 5, "Ice", 3, false),
   createHero("Tiburtus", "Classic", "Ranger", 4, "Dark", 3, false),
   createHero("Toril", "Classic", "Barbarian", 2, "Ice", 3, false),
