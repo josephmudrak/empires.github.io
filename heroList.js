@@ -586,6 +586,7 @@ export const heroes = [
     true,
   ),
   createHero("Li Xiu", "Classic", "Monk", 4, "Holy", 3, false),
+  createHero("Little John", "Classic", "Barbarian", 4, "Nature", 2, false),
   createHero("Ma'at", "Sun", "Rogue", 5, "Nature", 4, false),
   createHero("Mael", "Astral Demons", "Rogue", 4, "Fire", 4, false),
   createHero("Magni", "Classic", "Fighter", 5, "Ice", 4, false),
