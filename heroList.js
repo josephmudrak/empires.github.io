@@ -563,6 +563,7 @@ export const heroes = [
     true,
   ),
   createHero("Kornel", "Magic", "Druid", 3, "Fire", 9, false),
+  createHero("Kuang Nao", "Ghosts of Yang Jian", "Monk", 4, "Nature", 3, false),
   createHero("Kvasir", "Alfheim", "Druid", 3, "Holy", 4, false),
   createHero("Kvasir (Toon Beekeeper)", "Alfheim", "Druid", 3, "Holy", 4, true),
   createHero(
