@@ -593,6 +593,7 @@ export const heroes = [
   createHero("Magni", "Classic", "Fighter", 5, "Ice", 4, false),
   createHero("Melendor", "Classic", "Druid", 4, "Nature", 3, false),
   createHero("Melia", "Atlantis", "Druid", 3, "Holy", 4, false),
+  createHero("Melia (Toon Mermaid)", "Atlantis", "Druid", 3, "Holy", 4, true),
   createHero(
     "Melia (Emissary of Atlantis)",
     "Atlantis",
