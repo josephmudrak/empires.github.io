@@ -500,6 +500,7 @@ export const heroes = [
     true,
   ),
   createHero("Karil (The Heated)", "Classic", "Rogue", 3, "Ice", 3, true),
+  createHero("Kashhrek", "Classic", "Wizard", 4, "Nature", 3, false),
   createHero("Kaski", "Kalevala", "Druid", 5, "Fire", 4, false),
   createHero("Kelile", "Classic", "Rogue", 4, "Fire", 4, false),
   createHero(
