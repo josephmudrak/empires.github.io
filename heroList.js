@@ -825,6 +825,15 @@ export const heroes = [
   ),
   createHero("Oberon", "Classic", "Fighter", 3, "Dark", 2, false),
   createHero(
+    "Oberon (Stylish Remnant)",
+    "Classic",
+    "Fighter",
+    3,
+    "Dark",
+    2,
+    true,
+  ),
+  createHero(
     "Oberon (Relentless Vitrail)",
     "Classic",
     "Fighter",
