@@ -781,7 +781,7 @@ export const heroes = [
     8,
     true,
   ),
-  createHero("Namahage", "Sakura", "Fighter", 3, "Fire", 4, false),
+  createHero("Namahage", "Sakura", "Barbarian", 3, "Fire", 4, false),
   createHero("Nash", "Classic", "Wizard", 2, "Holy", 4, false),
   createHero("Nashgar", "Classic", "Barbarian", 3, "Fire", 4, false),
   createHero(
