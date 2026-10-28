@@ -523,6 +523,15 @@ export const heroes = [
   createHero("Hou", "Classic", "Monk", 2, "Holy", 3, false),
   createHero("Isshtak", "Classic", "Ranger", 3, "Nature", 3, false),
   createHero(
+    "Isshtak (Stylish Fighter)",
+    "Classic",
+    "Ranger",
+    3,
+    "Nature",
+    3,
+    true,
+  ),
+  createHero(
     "Isshtak (Glass Fighter)",
     "Classic",
     "Ranger",
