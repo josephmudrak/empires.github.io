@@ -592,6 +592,15 @@ export const heroes = [
   createHero("Kal\u00f8", "Gargoyle", "Sorcerer", 4, "Nature", 1, false),
   createHero("Karil", "Classic", "Barbarian", 3, "Ice", 3, false),
   createHero(
+    "Karil (Stylish Dwarf)",
+    "Classic",
+    "Barbarian",
+    3,
+    "Ice",
+    3,
+    true,
+  ),
+  createHero(
     "Karil (The Hotblooded Vitrail)",
     "Classic",
     "Barbarian",
