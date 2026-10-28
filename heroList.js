@@ -871,6 +871,7 @@ export const heroes = [
     3,
     true,
   ),
+  createHero("Pertinax", "Owl", "Paladin", 5, "Holy", 3, false),
   createHero("Pineon", "Valiant Vegetable", "Wizard", 4, "Holy", 3, false),
   createHero("Prisca", "Classic", "Paladin", 3, "Dark", 3, false),
   createHero("Proteus", "Atlantis", "Wizard", 4, "Dark", 3, false),
