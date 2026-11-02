@@ -1001,6 +1001,7 @@ export const heroes = [
     4,
     true,
   ),
+  createHero("Rustbeak", "Construct", "Druid", 3, "Holy", 3, false),
   createHero("Sabina", "Classic", "Sorcerer", 4, "Dark", 3, false),
   createHero("Scarlett", "Classic", "Rogue", 4, "Fire", 4, false),
   createHero("Sha Ji", "Classic", "Cleric", 2, "Holy", 3, false),
