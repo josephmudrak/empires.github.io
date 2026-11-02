@@ -458,6 +458,15 @@ export const heroes = [
   ),
   createHero("Graymane", "Classic", "Sorcerer", 3, "Ice", 3, false),
   createHero(
+    "Graymane (Stylish Werewolf)",
+    "Classic",
+    "Sorcerer",
+    3,
+    "Ice",
+    3,
+    true,
+  ),
+  createHero(
     "Graymane (The Ferocious Glass)",
     "Classic",
     "Sorcerer",
