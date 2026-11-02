@@ -905,6 +905,7 @@ export const heroes = [
     3,
     true,
   ),
+  createHero("Nova", "Super Elemental", "Druid", 4, "Fire", 3, false),
   createHero("Oberon", "Classic", "Fighter", 3, "Dark", 2, false),
   createHero(
     "Oberon (Stylish Remnant)",
