@@ -788,6 +788,7 @@ export const heroes = [
     true,
   ),
   createHero("Kenjiro", "Classic", "Fighter", 1, "Holy", 3, false),
+  createHero("Khagan", "Classic", "Ranger", 5, "Fire", 2, false),
   createHero("Kiril", "Classic", "Wizard", 4, "Ice", 3, false),
   createHero("Kiril (Stylish Taster)", "Classic", "Wizard", 4, "Ice", 3, true),
   createHero("Kiril (Brewer Vitrail)", "Classic", "Wizard", 4, "Ice", 3, true),
