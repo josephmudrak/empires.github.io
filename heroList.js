@@ -409,6 +409,7 @@ export const heroes = [
   createHero("Fianna", "Plains Hunter", "Ranger", 3, "Nature", 3, false),
   createHero("Fjalar", "Nidavellir", "Fighter", 4, "Holy", 3, false),
   createHero("Fletcher", "Classic", "Rogue", 1, "Dark", 4, false),
+  createHero("Foxglove", "Fox", "Wizard", 4, "Dark", 3, false),
   createHero("Friar Tuck", "Classic", "Monk", 3, "Nature", 3, false),
   createHero(
     "Friar Tuck (Jovial Disco Artist)",
